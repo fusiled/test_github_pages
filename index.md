@@ -1,4 +1,9 @@
-{% assign root = "/downloads/" %}
+---
+layout: default
+title: ROOT
+---
+
+{% assign root = "/" %}
 {% assign folders = "" | split: "" %}
 
 {% for file in site.static_files %}
